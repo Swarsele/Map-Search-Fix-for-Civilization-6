@@ -1,0 +1,1 @@
+copy /Y "==PATH TO ORIGINAL MODS.sqlite==\Mods.sqlite" "==PATH TO My Games==\My Games\Sid Meier's Civilization VI"
