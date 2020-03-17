@@ -6,9 +6,11 @@ https://forums.civfanatics.com/threads/1-0-0-341-map-search-stuck.656149/
 As the game seems to perform well when started with all mods unloaded, my solution 
 is to simply run a small .bat file every time before starting the game. This .bat file then
 copies a "clean" mods.sqlite file into the "My Games\Sid Meier's Civilization 6" folder,
-and Map Search should work.
+and Map Search should work. Of course, this could be done by hand as well, but this approach saves us some trouble.
+I simply made a shortcut to this .bat file and placed it in my Quick Links, so I can always use it before starting the game
 
 ====================================================================================
+
 STEPS TO FIX:
 -In "Enable Civ 6 Mods.bat", change the first argument to the destination of your 
 clean mods.sqlite
@@ -30,6 +32,8 @@ directory.
 -now, go to "My Games\Sid Meier's Civilization 6" and make a backup of mods.sqlite
 -you can also make a backup of the Cache and ModUserData Folders if you want (might
 not be needed however)
+
+====================================================================================
 
 If you find a more elegant solution to this problem, do not hesitate to contact me at
 nautilus.dw@gmail.com
